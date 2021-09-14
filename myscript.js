@@ -1,7 +1,25 @@
 function toggleText() {
+    // после let array должен идти знак равно
+    // потом квадратные скобки
+    // в квадратных скобках вопросы в кавычках через запятую
+    // после квадратных скобок идет точка с запятой
+    //  let array = [
+    //    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p'
+    //  ];
+    
     let array = [
+        
+        
+        
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p'
+        
+       
+        
     ];
+    
+    
+    
+    
     var que_arr = [];
     while(que_arr.length < 10){
         var r = Math.floor(Math.random() * array.length);
